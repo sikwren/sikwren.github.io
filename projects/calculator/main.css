@@ -1,0 +1,60 @@
+table {
+	width: 400px;
+	height: 600px;
+	background-color: #212F3D;
+	border-spacing: 0px;
+	border-radius: 25px;
+}
+
+#calDisplay {
+	width: 360px;
+	height: 160px;
+	background-color: #F8F9F9;
+	margin: 20px;
+	font-family: 'Share Tech Mono', monospace;
+	text-align: right;
+	font-size: 160px;
+	border-radius: 10px;
+}
+
+div.button {
+	margin: 5px;
+	position: relative;
+	background-color: #273746;
+	width: 75px;
+	height: 75px;
+	text-align: center;
+	border-spacing: 0px;
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-size: 50px;
+	cursor: pointer;
+	-webkit-user-select: none;
+}
+
+div.button:hover {
+	position: relative;
+	top: -2px;
+	left: -2px;
+	box-shadow: 2px 2px 2px #000000;
+}
+
+div.button:active{
+		background-color: #566573;
+		top: 5px;
+		left: 5px;
+		box-shadow: 0px 0px 0px;
+}
+
+#long-button {
+	width: 180px;
+}
+
+#tall-button {
+	height: 160px;
+}
+
+#return {
+	padding-top: 200px;
+	text-align: center;
+}

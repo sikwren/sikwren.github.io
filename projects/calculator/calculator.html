@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Simple Calculator</title>
+	
+	<!--Link to CSS File-->
+	<link rel="stylesheet" type="text/css" href="main.css">
+	
+	<!--Google Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+</head>
+<body>
+	<table>
+		<tr>
+			<td colspan="4">
+				<div id="calDisplay">
+					0
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="button" onClick="operand('+')">
+					+
+				</div>
+			</td>
+			<td>
+				<div class="button" onClick="operand('-')">
+					-
+				</div>
+			</td>
+			<td>
+				<div class="button" onClick="operand('*')">
+					*
+				</div>
+			</td>
+			<td>
+				<div class="button" onClick="operand('/')">
+					/
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="button" onClick="addNum('7')">
+					7
+				</div>
+			</td>
+			<td>
+				<div class="button" onClick="addNum('8')">
+					8
+				</div>
+			</td>
+			<td>
+				<div class="button" onClick="addNum('9')">
+					9
+				</div>
+			</td>
+			<td rowspan="2">
+				<div class="button" id="tall-button" onClick="clearDis()">
+					C
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="button" onClick="addNum('4')">
+					4
+				</div>
+			</td>
+			<td>
+				<div class="button" onClick="addNum('5')">
+					5
+				</div>
+			</td>
+			<td>
+				<div class="button" onClick="addNum('6')">
+					6
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="button" onClick="addNum('1')">
+					1
+				</div>
+			</td>
+			<td>
+				<div class="button" onClick="addNum('2')">
+					2
+				</div>
+			</td>
+			<td>
+				<div class="button" onClick="addNum('3')">
+					3
+				</div>
+			</td>
+			<td rowspan="2">
+				<div class="button" id= "tall-button" onClick="equal()">
+					=
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<div class="button" onClick="addNum('0')" id="long-button">
+					0
+				</div>
+			</td>
+			<td>
+				<div class="button" onClick="decimal()">
+					.
+				</div>
+			</td>
+		</tr>
+	</table>
+	<div id="return">
+		<a href="../../index.html">Return Home</a>
+	</div>
+	<!--Links to Javascript-->
+	<script src="javascript.js"></script>
+</body>
+</html>
